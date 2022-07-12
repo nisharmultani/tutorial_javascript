@@ -31,3 +31,15 @@ a();
 // }
 //  const v = a();
 //  console.log(v)
+
+const arr = ['nishar' , 'multani','gujarat','india']
+// array built in function  
+// 1) array value 
+// console.log(arr.values())
+// const values = arr.values()
+for (let index of arr.values() ){
+  console.log(index)
+}
+
+
+
