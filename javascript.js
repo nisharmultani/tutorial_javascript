@@ -23,6 +23,12 @@ console.log(arr.toString())
 // 4)array toLocalString
 // i dont get any proper difference between toString and toLocaleString
 console.log(arr.toLocaleString())
-
-
+console.log(arr)
+ 
+// 5)splice
+// The arr.splice() method is an inbuilt method in JavaScript which is used to modify the contents of an array by removing the existing elements and/or by adding new elements.
+// remove from array
+// Array.splice( index, remove_count, item_list )
+arr.splice(2,'multani')
+console.log(arr)
 
