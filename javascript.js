@@ -20,6 +20,9 @@ for ( let index of arr.values()){
 // array will be display in a form of String
 console.log(arr.toString())
 
+// 4)array toLocalString
+// i dont get any proper difference between toString and toLocaleString
+console.log(arr.toLocaleString())
 
 
 
