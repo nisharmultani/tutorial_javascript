@@ -16,6 +16,9 @@ console.log(arr)
 for ( let index of arr.values()){
   console.log(index)
 }
+// 3) toString
+// array will be display in a form of String
+console.log(arr.toString())
 
 
 
