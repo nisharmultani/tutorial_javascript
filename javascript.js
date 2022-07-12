@@ -9,6 +9,18 @@ function a() {
   b();
 }
 a();
+//  prototype
+
+
+//  let arr = ['nsihar','multani']
+// info = {
+//   name: 'nishar',
+//   lastName: 'multani'
+// }
+// function a(){
+//   //
+
+// }
 
 
 
