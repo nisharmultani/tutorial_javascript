@@ -32,3 +32,24 @@ console.log(arr)
 arr.splice(2,'multani')
 console.log(arr)
 
+// 6) array sort
+// sort is use to array in proper formate like acedingorder and many more 
+// by default is will arrange in asseding order
+console.log(arr.sort())
+const person = {
+  fullName: function(address , pincode) {
+    return this.firstName + this.lastName +address + pincode
+  }
+}
+const persion1 = {
+  firstName:'nishar',
+  lastName : 'multani'
+}
+// apply method tack argument in form of array
+const a = person.fullName.apply(persion1,['buhari','93489759'])
+console.log(a)
+//call methods tack argument in a Strig form 
+const b = person.fullName.call(persion1,'valod','983450')
+console.log(b)
+
+
