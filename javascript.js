@@ -1,5 +1,22 @@
 
 const arr = ['nishar' , 'multani','gujarat','india']
+document.querySelector("#dada")
+    .addEventListener('click',(e)=>{
+     console.log('dada')   
+    },true)
+    document.querySelector("#papa")
+    .addEventListener('click',()=>{
+     console.log('papa')   
+    },false)
+    document.querySelector("#son")
+    .addEventListener('click',()=>{
+     console.log('son')   
+    },true)
+
+
+
+
+
 // array built in function  
 
 // 1) array value 
