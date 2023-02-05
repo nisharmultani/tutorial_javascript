@@ -1,3 +1,76 @@
+// what is use of push methods
+
+// meaning of push
+// how to use push metthods
+
+// const animals = ['pigs', 'goats', 'sheep'];
+// const lastName = ['b', 'f', 't'];
+
+// const jk = animals.push(...lastName)
+// console.log(jk)
+// console.log(animals)
+
+
+const animals= ["a" ,"b", "c"]
+const lastName =["manoj","rakes", "lila"]
+
+const result = animals.push(...lastName)
+
+console.log("result",result)
+console.log(animals)
+
+
+
+// console.log("first",animals)
+
+// const length = animals.push("d","e","g",["k","l"],{name:"k",lastName:"l"})
+// console.log(length)
+// console.log("new",animals)
+
+
+
+
+
+
+
+// const count = animals.push('cows','lion',"mango",["jira","sira","lila"],{name:"nsiahr", lastName:"multani"});
+// console.log(count)
+
+
+// console.log(count);
+// Expected output: 4
+// console.log(animals);
+// Expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+// animals.push('chickens', 'cats', 'dogs');
+// console.log(animals);
+// Expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // const arr = ['nishar' , 'multani','gujarat','india']
@@ -137,7 +210,5 @@
 //  console.log(result)
 
 // first and last occuurance of array
-
-
 
 
